@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshul Saini — AI · ML · Full-Stack · Hardware</title>
+  <meta name="description" content="Harshul Saini — CSE student at BML Munjal University building AI agents, ML models, full-stack apps and hardware." />
+  <meta property="og:title" content="Harshul Saini — Portfolio" />
+  <meta property="og:description" content="AI agents, ML, full-stack and hardware projects." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2305060a'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='%2300f0ff' font-family='monospace' font-weight='bold'>H</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- scroll progress bar + cursor glow -->
+  <div id="progress"></div>
+  <div id="cursor-glow"></div>
+
+  <!-- ===== NAV ===== -->
+  <nav id="nav">
+    <a href="#top" class="logo">harshul<span>.</span>dev</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+    <button class="term-btn" id="openTerm" title="Open terminal (press ~)">&gt;_</button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header id="top" class="hero">
+    <canvas id="globe"></canvas>
+    <div class="grid-floor"></div>
+
+    <div class="hero-content">
+      <p class="tag mono"><span class="dot"></span> available for internships · 2026</p>
+      <h1 class="glitch" data-text="HARSHUL SAINI">HARSHUL SAINI</h1>
+      <p class="role mono">&gt; <span id="typed"></span><span class="caret">█</span></p>
+      <p class="sub">
+        CSE @ BML Munjal University. I build <b>AI agents</b> that do real work,
+        <b>ML models</b> that I test honestly, and <b>hardware</b> that blinks, beeps and moves.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-neon magnetic">See my work ↓</a>
+        <a href="https://github.com/Harshul0025" target="_blank" rel="noopener" class="btn btn-ghost magnetic">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint mono">scroll</div>
+  </header>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee">
+    <div class="marquee-track mono">
+      <span>GEMINI</span><span>✦</span><span>GOOGLE ADK</span><span>✦</span><span>TENSORFLOW</span><span>✦</span>
+      <span>MEDIAPIPE</span><span>✦</span><span>NEXT.JS</span><span>✦</span><span>FASTAPI</span><span>✦</span>
+      <span>NODE.JS</span><span>✦</span><span>MONGODB</span><span>✦</span><span>ESP32</span><span>✦</span>
+      <span>OPENCV</span><span>✦</span><span>XGBOOST</span><span>✦</span><span>FIREBASE</span><span>✦</span>
+      <!-- duplicate for seamless loop -->
+      <span>GEMINI</span><span>✦</span><span>GOOGLE ADK</span><span>✦</span><span>TENSORFLOW</span><span>✦</span>
+      <span>MEDIAPIPE</span><span>✦</span><span>NEXT.JS</span><span>✦</span><span>FASTAPI</span><span>✦</span>
+      <span>NODE.JS</span><span>✦</span><span>MONGODB</span><span>✦</span><span>ESP32</span><span>✦</span>
+      <span>OPENCV</span><span>✦</span><span>XGBOOST</span><span>✦</span><span>FIREBASE</span><span>✦</span>
+    </div>
+  </div>
+
+  <main>
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+      <p class="eyebrow mono">01 // about</p>
+      <h2 class="reveal">I like projects that <span class="grad">actually do something.</span></h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a B.Tech CSE student (2024–2028) at BML Munjal University, Gurugram.
+            My first big build was an obstacle-avoiding car in school, which won the
+            <b>MANAK INSPIRE Award</b>. Since then I've moved from Arduino to AI agents,
+            but the goal is the same: build things people can see working.
+          </p>
+          <p>
+            Lately that means a game that cleans your Gmail, slides you control with your hands,
+            and a disaster-response platform with flood and fire prediction.
+            Off the keyboard, I lead outreach at the <b>ACM BMU Student Chapter</b> and help run hackathons.
+          </p>
+        </div>
+        <div class="stats reveal">
+          <div class="stat"><span class="num" data-count="12">0</span><span class="plus">+</span><p>projects built</p></div>
+          <div class="stat"><span class="num" data-count="5">0</span><span class="plus">+</span><p>AI / ML builds</p></div>
+          <div class="stat"><span class="num" data-count="4">0</span><p>lead roles</p></div>
+          <div class="stat"><span class="num" data-count="1">0</span><p>national award</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED PROJECTS ===== -->
+    <section id="projects" class="section">
+      <p class="eyebrow mono">02 // featured work</p>
+      <h2 class="reveal">Things I've <span class="grad">shipped.</span></h2>
+
+      <div class="projects">
+        <!-- 1 -->
+        <article class="card tilt reveal" style="--accent:#ff2bd6">
+          <div class="card-top">
+            <span class="emoji">👻</span>
+            <span class="badge live">● LIVE</span>
+          </div>
+          <h3>Inboxorcist</h3>
+          <p class="kicker mono">PromptWars × OUTLIER'2026</p>
+          <p>A Halloween arcade game that <b>cleans your real Gmail inbox</b> while you play. Gemini turns your noisiest senders into bosses; every hit is a real Gmail API call that archives their mail.</p>
+          <div class="chips"><span>Gemini</span><span>Gmail API</span><span>Vite</span><span>Firebase</span><span>CI/CD</span></div>
+          <div class="links">
+            <a href="https://inboxorcist.vercel.app" target="_blank" rel="noopener">Live demo ↗</a>
+            <a href="https://github.com/Harshul0025/inboxorcist" target="_blank" rel="noopener">Code ↗</a>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="card tilt reveal" style="--accent:#00f0ff">
+          <div class="card-top"><span class="emoji">🖐️</span><span class="badge">AI · CV</span></div>
+          <h3>AirDeck</h3>
+          <p class="kicker mono">gesture-controlled slides</p>
+          <p>Control a slide deck with your hands through the webcam: swipe, laser-point, draw, react. A voice assistant, "Pikachu", understands <b>English and Hinglish</b> offline, and uses Claude as a fallback.</p>
+          <div class="chips"><span>MediaPipe</span><span>JavaScript</span><span>Speech API</span><span>Claude</span></div>
+          <div class="links"><a href="https://github.com/Harshul0025/airdeck" target="_blank" rel="noopener">Code ↗</a></div>
+        </article>
+
+        <!-- 3 -->
+        <article class="card tilt reveal" style="--accent:#ff7a18">
+          <div class="card-top"><span class="emoji">🚨</span><span class="badge">AI · ML</span></div>
+          <h3>ResQCity Lite</h3>
+          <p class="kicker mono">AI disaster management</p>
+          <p>Smart-city platform with <b>flood (XGBoost) and fire (Random Forest) prediction</b>, citizen incident reports verified by Gemini Vision, a live Leaflet map and resource allocation.</p>
+          <div class="chips"><span>Next.js</span><span>FastAPI</span><span>XGBoost</span><span>LangChain</span><span>Docker</span></div>
+          <div class="links"><a href="https://github.com/Harshul0025/ResQCity-Lite" target="_blank" rel="noopener">Code ↗</a></div>
+        </article>
+
+        <!-- 4 -->
+        <article class="card tilt reveal" style="--accent:#b6ff3b">
+          <div class="card-top"><span class="emoji">🧭</span><span class="badge">AGENTS</span></div>
+          <h3>Multi-Agent Travel Planner</h3>
+          <p class="kicker mono">Google ADK + Gemini</p>
+          <p>A team of AI agents that plans trips on a budget: orchestration, search, recommendations and navigation, with SQLite-backed destination data.</p>
+          <div class="chips"><span>Python</span><span>Google ADK</span><span>Gemini</span><span>SQLite</span></div>
+          <div class="links"><a href="https://github.com/Harshul0025/Google-Agent-of-4" target="_blank" rel="noopener">Code ↗</a></div>
+        </article>
+
+        <!-- 5 -->
+        <article class="card tilt reveal" style="--accent:#3bff9d">
+          <div class="card-top"><span class="emoji">🍏</span><span class="badge">DEEP LEARNING</span></div>
+          <h3>Fresh Vision</h3>
+          <p class="kicker mono">thesis project</p>
+          <p>Snap a photo and it identifies <b>14 types of produce</b> and grades freshness on 5 decay levels with a shelf-life estimate. A gatekeeper model rejects non-produce images first.</p>
+          <div class="chips"><span>TensorFlow</span><span>MobileNetV2</span><span>OpenCV</span><span>FastAPI</span><span>React</span></div>
+        </article>
+
+        <!-- 6 -->
+        <article class="card tilt reveal" style="--accent:#8a5bff">
+          <div class="card-top"><span class="emoji">📈</span><span class="badge">ML</span></div>
+          <h3>NIFTY 50 Direction</h3>
+          <p class="kicker mono">honest market ML</p>
+          <p>Predicts if NIFTY 50 closes up or down tomorrow, with regularised models, ensembles and leak-free time-series testing. The honest result: <b>~52% on unseen data</b>, which shows how hard the market is to beat.</p>
+          <div class="chips"><span>scikit-learn</span><span>Random Forest</span><span>Pandas</span><span>EDA</span></div>
+        </article>
+      </div>
+
+      <!-- more projects -->
+      <h3 class="more-title mono reveal">// more builds</h3>
+      <div class="more">
+        <div class="more-item reveal"><span class="mi-emoji">🏭</span><div><h4>IoT Machine Health Monitor</h4><p>ESP32 reads vibration, temperature, current and RPM, trips alarms and pushes live data to ThingSpeak.</p></div><span class="mi-tag mono">ESP32 · C++</span></div>
+        <div class="more-item reveal"><span class="mi-emoji">🎬</span><div><h4>One-Stream</h4><p>A full-stack OTT platform that brings many content sources into one interface.</p></div><span class="mi-tag mono">Node · Express · MongoDB</span></div>
+        <div class="more-item reveal"><span class="mi-emoji">🛒</span><div><h4>VendorSetu <small>(team)</small></h4><p>Street-vendor formalisation and micro-credit platform, with full SRS, UML and test docs.</p></div><span class="mi-tag mono">Flask · SE</span></div>
+        <div class="more-item reveal"><span class="mi-emoji">🧹</span><div><h4>Cleanify <small>(team)</small></h4><p>Android app for hostel cleaning requests, scheduling and service tracking.</p></div><span class="mi-tag mono">Java · Firebase</span></div>
+        <div class="more-item reveal"><span class="mi-emoji">🚗</span><div><h4>Obstacle-Avoiding Car 🏆</h4><p>Autonomous car with ultrasonic sensing that won the MANAK INSPIRE Award.</p></div><span class="mi-tag mono">Arduino · C++</span></div>
+        <div class="more-item reveal"><span class="mi-emoji">📡</span><div><h4>O-Dar Radar</h4><p>Servo-swept ultrasonic radar that scans and maps nearby objects in real time.</p></div><span class="mi-tag mono">Arduino · Servo</span></div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section">
+      <p class="eyebrow mono">03 // toolkit</p>
+      <h2 class="reveal">What I <span class="grad">build with.</span></h2>
+      <div class="skills">
+        <div class="skill-box reveal"><h4 class="mono">AI / Agents</h4><p>Gemini · Google ADK · LangChain · Claude API · MediaPipe</p></div>
+        <div class="skill-box reveal"><h4 class="mono">ML / Data</h4><p>TensorFlow · Keras · scikit-learn · XGBoost · OpenCV · Pandas · NumPy</p></div>
+        <div class="skill-box reveal"><h4 class="mono">Web</h4><p>JavaScript · React · Next.js · Node · Express · FastAPI · Flask</p></div>
+        <div class="skill-box reveal"><h4 class="mono">Languages</h4><p>Python · Java · C · C++ · JavaScript · SQL</p></div>
+        <div class="skill-box reveal"><h4 class="mono">Data stores</h4><p>MongoDB · MySQL · PostgreSQL · Firebase · SQLite</p></div>
+        <div class="skill-box reveal"><h4 class="mono">Hardware & Tools</h4><p>ESP32 · Arduino · Git · Docker · Android Studio · Vercel</p></div>
+      </div>
+    </section>
+
+    <!-- ===== JOURNEY ===== -->
+    <section id="journey" class="section">
+      <p class="eyebrow mono">04 // journey</p>
+      <h2 class="reveal">Leadership & <span class="grad">wins.</span></h2>
+      <div class="timeline">
+        <div class="t-item reveal"><span class="t-year mono">now</span><h4>Outreach Team Lead — ACM BMU Student Chapter</h4><p>Bringing students into workshops, talks and hackathons.</p></div>
+        <div class="t-item reveal"><span class="t-year mono">2026</span><h4>Entry Management Lead — Hacked BMU 2026</h4><p>Ran entry and check-in for the university hackathon.</p></div>
+        <div class="t-item reveal"><span class="t-year mono">2026</span><h4>Entry & Offline Marketing Lead — GLITCH 2.0</h4><p>Ran on-ground promotion and entry for the event.</p></div>
+        <div class="t-item reveal"><span class="t-year mono">2025</span><h4>Entry Management Lead — Smart India Hackathon</h4><p>Handled entry and participant flow for SIH 2025.</p></div>
+        <div class="t-item reveal"><span class="t-year mono">2023</span><h4>Club Director — Rotary Club of Bhiwadi</h4><p>Led community service projects for a year.</p></div>
+        <div class="t-item reveal gold"><span class="t-year mono">2021</span><h4>🏆 Winner — MANAK INSPIRE Award</h4><p>National innovation award (₹10,000) for an autonomous obstacle-avoiding car.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact">
+      <p class="eyebrow mono">05 // contact</p>
+      <h2 class="big reveal">Let's build something <span class="grad">insane.</span></h2>
+      <p class="reveal">Open to internships, hackathon teams and fun collaborations.</p>
+      <div class="contact-btns reveal">
+        <button class="btn btn-neon magnetic" id="copyEmail" data-email="sainiharshul111@gmail.com">sainiharshul111@gmail.com <span class="mono">⧉</span></button>
+        <a class="btn btn-ghost magnetic" href="https://github.com/Harshul0025" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn btn-ghost magnetic" id="linkedinLink" href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <p class="hint mono">psst… press <kbd>~</kbd> for a secret terminal</p>
+    </section>
+  </main>
+
+  <footer class="mono">© 2026 Harshul Saini · hand-built, no templates</footer>
+
+  <!-- toast -->
+  <div id="toast" class="mono"></div>
+
+  <!-- ===== SECRET TERMINAL ===== -->
+  <div id="terminal" class="mono" aria-hidden="true">
+    <div class="term-bar"><span></span><span></span><span></span><p>harshul@portfolio: ~</p><button id="closeTerm">✕</button></div>
+    <div class="term-body" id="termBody"></div>
+    <div class="term-input"><span>harshul@portfolio:~$</span><input id="termInput" autocomplete="off" spellcheck="false" /></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
